@@ -1,0 +1,24 @@
+h1{
+	background-color:#4aaaa5;
+	color:white;
+	width: 30%;
+	text-align: center;
+	padding: 20px;
+	margin-padding: 25px;
+
+}
+h2{
+	color:#4aaaa5;
+	text-align: middle;
+	padding: 35px;
+}
+#idLinks{
+	text-align: right;
+}
+h6{
+	color:white;
+	background-color: #666666;
+	text-align: center;
+	padding: 20px;
+	margin-padding: 25px;
+}
