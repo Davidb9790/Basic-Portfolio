@@ -1,9 +1,10 @@
+
 body{
 
 	font-family: 'Georgia','Times', 'Times New Roman', 'serif', 'Courette'; 
 	width:960px;
 	margin-top: 150px;
-	background-color: white;
+	background:"images/pattern.png";
 	color: grey;
 	line-height:25px;
 
@@ -151,22 +152,59 @@ footer {
 #message{
 	padding-bottom: 25px;
 }
-.hangman{
+.tile1{
 /*background-image:url ("../images/hangman.jpg"); */
 background-image: url("../images/hangman.jpg");
-width: 100%;
-height: 100%;
+width: 30%;
+height: 30%;
 display: inline;
 margin: 15px;
 float: left;
 background-repeat: no-repeat;
-margin: 25;
+margin: 25;	
+}
+.tile2{
+	background-image: url("../images/rpg.jpg");
+	width: 30%;
+	height: 30%;
+	display: inline;
+
+	float: left;
+	background-repeat: no-repeat;
+	margin: 25;	
+}
+.tile3{
+	background-image: url("../images/trivia.jpg");
+	width: 30%;
+	height: 30%;
+	display: inline;
+	
+	float: left;
+	background-repeat: no-repeat;
+	margin: 25;	
+}
+.tile4{
+	background-image: url("../images/rutgers.jpg");
+	width: 30%;
+	height: 30%;
+	display: inline;
+	
+	float: left;
+	background-repeat: no-repeat;
+	margin: 25;	
+}
+.tile5{
+	background-image: url("../images/rutgers.jpg");
+	width: 30%;
+	height: 30%;
+	display: inline;
+	
+	float: left;
+	background-repeat: no-repeat;
+	margin: 25;	
 }
 
-form{
-	color: light grey;
-}
-.green{
+.image-header{
 	position: relative;
 	background-color: lightgreen;
 	color: white;
@@ -174,5 +212,14 @@ form{
 	vertical-align: baseline;
 	opacity: .9;
 	height: 50px;
+
+}
+
+form{
+	color: light grey;
+	margin-left: 15px;
+}
+.submit{
+	margin left: 15px;
 
 }
